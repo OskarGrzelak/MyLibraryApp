@@ -1,0 +1,25 @@
+.Screen {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.Screen h1 {
+    font-size: 6rem;
+    line-height: 1.1;
+    font-weight: 400;
+    align-self: flex-start;
+    color: #FFFFFF;
+    margin-bottom: 8rem;
+}
+
+.Screen h1 span {
+    display: block;
+}
+
+.Screen h1 span:last-of-type {
+    color: #FFAEEF;
+}
