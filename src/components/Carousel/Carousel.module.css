@@ -1,0 +1,14 @@
+.Carousel {
+    margin-left: calc(50vw - 8.95rem);
+    align-self: flex-start;
+    display: flex;
+    padding: 3rem 0;
+    transition: transform .3s;
+}
+
+.Carousel div {
+    height: 18.4rem;
+    width: 12.9rem;
+    margin: 0 2.5rem;
+    background-color: #FFFFFF;
+}

@@ -1,0 +1,32 @@
+.Nav {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF0ECF;
+    z-index: 2;
+}
+
+.top {
+    top: 0;
+    height: 5rem;
+    flex-direction: row-reverse;
+}
+
+.bottom {
+    bottom: 0;
+    height: 8.5rem;
+}
+
+.bottom::before {
+    content: '';
+    position: absolute;
+    bottom: 8.5rem;
+    left: 0;
+    height: 10rem;
+    width: 100%;
+    background-image: linear-gradient(rgba(38, 0, 253, 0), #120074)
+}
